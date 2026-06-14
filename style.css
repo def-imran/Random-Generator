@@ -29,7 +29,7 @@
      background-color: rgba(196, 255, 252, 0.795);
      border-radius: 12px;
      margin-bottom:20px;
-     display: none;
+     display: block;
  }
 
  .generate-button{
