@@ -11,7 +11,7 @@
      justify-content: center;
      font-family: 'Segoe UI', sans-serif;
      text-align: center;
-     background-color: rgb(216, 216, 216)
+     background-color: rgb(237, 237, 237)
  }
 
  .main-container {
@@ -26,9 +26,17 @@
  .quote-visualizer {
      margin-top: 28px;
      padding: 20px;
-     background-color: rgba(170, 250, 247, 0.795);
+     background-color: rgba(196, 255, 252, 0.795);
      border-radius: 12px;
-     margin-bottom:14px;
+     margin-bottom:20px;
+     display: none;
  }
 
- .generate-button
+ .generate-button{
+    border-radius:10px;
+    padding:10px;
+    border:none;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: rgba(24, 255, 243, 0.795);
+}
