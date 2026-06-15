@@ -1,7 +1,7 @@
 const quotes = [
     {
-        "quote": "test1",
-        "name": "test1name"
+        "quote": "He who alleviates the suffering of a brother out of the sufferings of the world, Allah would alleviate his suffering from the sufferings of the Day of Resurrection",
+        "name": "prophet Muhammed peace be upon him."
     },
 
     {
@@ -30,6 +30,11 @@ quoteButton.addEventListener("click", (generateQuote))
 
 function generateQuote() {
     const randomQuote = quotes[Math.floor(quotes.length * Math.random())];
+    const quoteText = document.getElementById("quote-text");
+    const quotePerson = document.getElementById("person-text");
+    const quoteContainer = document.getElementById("quote-visualizer")
+    quoteText.textContent = `"${randomQuote.quote}"`;
+    quotePerson.textContent = `~${randomQuote.name}`;
     console.log(randomQuote.quote, randomQuote.name)
 
 }
