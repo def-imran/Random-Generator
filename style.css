@@ -26,10 +26,10 @@
  .quote-visualizer {
      margin-top: 28px;
      padding: 20px;
-     background-color: rgba(196, 255, 252, 0.795);
+     background-color: rgba(196, 255, 226, 0.795);
      border-radius: 12px;
      margin-bottom:20px;
-     display: block;
+     display: none;
  }
 
  .generate-button{
@@ -38,7 +38,7 @@
     border:none;
     font-weight: bold;
     margin-top: 20px;
-    background-color: rgba(24, 255, 243, 0.795);
+    background-color: rgba(2, 253, 132, 0.795);
 }
 
 .quote-text{

@@ -48,9 +48,10 @@ function generateQuote() {
     const randomQuote = quotes[Math.floor(quotes.length * Math.random())];
     const quoteText = document.getElementById("quote-text");
     const quotePerson = document.getElementById("person-text");
-    const quoteContainer = document.getElementById("quote-visualizer")
+    const quoteContainer = document.getElementById("quote-visualizer");
     quoteText.textContent = `"${randomQuote.quote}"`;
     quotePerson.textContent = `~${randomQuote.name}`;
+    quoteContainer.style.display = "block";
     console.log(randomQuote.quote, randomQuote.name)
 
 }
